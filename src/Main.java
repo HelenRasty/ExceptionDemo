@@ -5,7 +5,7 @@ public class Main {
         Person person1 = new Person("Henry", "Willson", 25);
         try {
             person1.setAge(121);
-        } catch(InvalidAgeException excpObj) {
+        } catch (InvalidAgeException excpObj) {
             System.out.println("The age of the person is less than 1 year or greater than 120 years!");
             excpObj.printStackTrace();
         }
